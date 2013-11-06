@@ -10,7 +10,7 @@
   <remote name="github"
            fetch="git://github.com/" />
 
-  <project path="build" name="EclipseRom/platform_build" remote="github" revision="cm-11" >
+  <project path="build" name="EclipseRom/android_build" remote="github" revision="cm-11" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
