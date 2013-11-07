@@ -21,6 +21,10 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
+  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
+  <project path="device/generic/common" name="device/generic/common" groups="pdk" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
+  <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <project path="device/htc/m7vzw" name="EclipseRom/android_device_htc_m7vzw" remote="github" revision="cm-11.0" />
   <project path="device/htc/m7-common" name="EclipseRom/android_device_htc_m7-common" remote="github" revision="cm-11.0" />
   <project path="device/htc/msm8960-common" name="EclipseRom/android_device_htc_msm8960-common" remote="github" revision="cm-11.0" />
