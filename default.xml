@@ -10,20 +10,20 @@
   <remote name="github"
            fetch="git://github.com/" />
 
-  <project path="build" name="EclipseRom/android_build" remote="github" revision="cm-11" >
+  <project path="build" name="EclipseRom/android_build" remote="github" revision="cm-11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
-  <project path="bionic" name="EclipseRom/android_bionic" remote="github" revision="cm-11" />
+  <project path="bionic" name="EclipseRom/android_bionic" remote="github" revision="cm-11.0" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/m7vzw" name="EclipseRom/android_device_htc_m7vzw" remote="github" revision="cm-11" />
-  <project path="device/htc/m7-common" name="EclipseRom/android_device_htc_m7-common" remote="github" revision="cm-11" />
-  <project path="device/htc/msm8960-common" name="EclipseRom/android_device_htc_msm8960-common" remote="github" revision="cm-11" />
+  <project path="device/htc/m7vzw" name="EclipseRom/android_device_htc_m7vzw" remote="github" revision="cm-11.0" />
+  <project path="device/htc/m7-common" name="EclipseRom/android_device_htc_m7-common" remote="github" revision="cm-11.0" />
+  <project path="device/htc/msm8960-common" name="EclipseRom/android_device_htc_msm8960-common" remote="github" revision="cm-11.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -216,15 +216,15 @@
   <project path="external/yaffs2" name="AOSP-S4/android_external_yaffs2" remote="github" revision="jb-4.3" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="EclipseRom/android_frameworks_av" remote="github" revision="cm-11" />
-  <project path="frameworks/base" name="EclipseRom/android_frameworks_base" remote="github" revision="cm-11" /> 
+  <project path="frameworks/av" name="EclipseRom/android_frameworks_av" remote="github" revision="cm-11.0" />
+  <project path="frameworks/base" name="EclipseRom/android_frameworks_base" remote="github" revision="cm-11.0" /> 
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="EclipseRom/android_frameworks_native" remote="github" revision="cm-11" />
+  <project path="frameworks/native" name="EclipseRom/android_frameworks_native" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -236,7 +236,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="EclipseRom/android_frameworks_opt_telephony" remote="github" revision="cm-11" /> />
+  <project path="frameworks/opt/telephony" name="EclipseRom/android_frameworks_opt_telephony" remote="github" revision="cm-11.0" /> />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -246,7 +246,7 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="kernel/htc/m7" name="EclipseRom/android_kernel_htc_m7" remote="github" revision="cm-11" />
+  <project path="kernel/htc/m7" name="EclipseRom/android_kernel_htc_m7" remote="github" revision="cm-11.0" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="kk4.4" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
@@ -302,7 +302,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="EclipseRom/android_packages_apps_Settings" remote="github" revision="cm-11" />
+  <project path="packages/apps/Settings" name="EclipseRom/android_packages_apps_Settings" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -337,7 +337,7 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="cm-11" />
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="cm-11.0" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
