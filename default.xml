@@ -370,12 +370,12 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="AOSP-S4/platform_system_core" remote="github" revision="kk-4.4" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/core" name="EclipseRom/android_system_core" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="system/extras" name="EclipseRom/android_system_extras" remote="github" revision="cm-11.0" />
+  <project path="system/media" name="EclipseRom/android_system_media" remote="github" revision="cm-11.0" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <project path="system/vold" name="EclipseRom/android_system_vold" remote="github" revision="cm-11.0" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-10.2" />
